@@ -14,7 +14,7 @@
 
   <groupId>com.azure</groupId>
   <artifactId>azure-ai-agents</artifactId>
-  <version>1.0.0-beta.2</version> <!-- {x-version-update;com.azure:azure-ai-agents;current} -->
+  <version>2.0.0-beta.1</version> <!-- {x-version-update;com.azure:azure-ai-agents;current} -->
   <packaging>jar</packaging>
 
   <name>Microsoft Azure SDK for Agents</name>
@@ -58,7 +58,6 @@
       <artifactId>openai-java</artifactId>
       <version>4.14.0</version> <!-- {x-version-update;com.openai:openai-java;external_dependency} -->
     </dependency>
-    <!-- Align Okio with azure-core-http-okhttp to prevent module-path conflicts in tests. -->
     <dependency>
       <groupId>com.azure</groupId>
       <artifactId>azure-core</artifactId>
